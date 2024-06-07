@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/eatly/static/css/main.fbc17229.css",
+    "main.js": "/eatly/static/js/main.1884818f.js",
+    "static/media/logo.svg": "/eatly/static/media/logo.7b4763bea22509ac7839bfdff9fef0f5.svg",
+    "index.html": "/eatly/index.html",
+    "main.fbc17229.css.map": "/eatly/static/css/main.fbc17229.css.map",
+    "main.1884818f.js.map": "/eatly/static/js/main.1884818f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbc17229.css",
+    "static/js/main.1884818f.js"
+  ]
+}
