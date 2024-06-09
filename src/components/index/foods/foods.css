@@ -1,0 +1,287 @@
+.foods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.foods_content{
+    width: 568px;
+    height: 492px;
+}
+
+.count_user{
+    position: relative;
+    width: 231px;
+    height: 18px;
+    text-align: right;
+}
+
+.count_user label{
+    font-family: var(--fontPop);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: rgba(32, 31, 31, 0.2);
+}
+
+.count_user::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    width: 54px;
+    height: 2px;
+    background-color: rgba(32, 31, 31, 0.2);
+}
+
+.title{
+    width: 567px;
+    font-family: var(--fontPop);
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 90px;
+    letter-spacing: -3px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.title span{
+    color: #5C4EAE;
+}
+
+.description{
+    width: 499px;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+    color: #676767;
+    margin: 15px 0 50px 0;
+}
+
+.description span{
+    font-weight: 500;
+    color: #5C4EAE;
+}
+
+.buttons button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.buttons{
+    width: 284px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.buttons .start{
+    width: 156px;
+    height: 59px;
+
+    background-color: #6C5FBC;
+    color: #FFFFFF;
+    border-radius: 12px;
+    
+    font-family: var(--fontPop);
+    font-size: 16.27px;
+    font-weight: 500;
+    line-height: 24.41px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+}
+
+.buttons .go-pro{
+    width: 110px;
+    height: 59px;
+
+    background-color: #FFFFFF;
+    color: #6C5FBC;
+    border: 2px solid #6C5FBC;
+    border-radius: 12px;
+
+    
+    font-family: var(--fontPop);
+    font-size: 16.27px;
+    font-weight: 500;
+    line-height: 24.41px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+
+}
+
+.trustpilot{
+    width: 301px;
+    height: 31px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.trustpilot label{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+    color: #334155;
+}
+
+.rating-result {
+	width: 95;
+	margin: 0 auto;
+}
+.rating-result span {
+	padding: 0;
+	font-size: 25px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+.rating-result > span:before {
+	content: '★';
+}
+.rating-result > span.active {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.foods_banner{
+    position: relative;
+    width: 680px;
+    height: 607px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foods_banner img{
+    z-index: 2;
+}
+
+
+.foods_banner::after{
+    position: absolute;
+    content: "";
+    width: 430px;
+    height: 430px;
+    background-color: #5C4EAE;
+    top: 12%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.foods_banner::before{
+    position: absolute;
+    content: "";
+    width: 101px;
+    height: 97px;
+    background-image: url('./../../../img/Arrow.png');
+
+    top: 20%;
+    right: 10%;
+}
+
+.graphic{
+    width: 207px;
+    height: 205px;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 15px;
+    z-index: 3;
+
+    bottom: 9.5%;
+    left: 8%;
+
+    box-shadow: 13.41px -16.76px 27.93px 0px rgba(0, 0, 0, 0.15);
+}
+
+.graphic::after{
+    position: absolute;
+    content: '';
+    width: 38px;
+    height: 33px;
+    background-image: url('./../../../img/pattern-2.svg');
+    z-index: 5;
+    left: -20%;
+    bottom: -20%;
+
+}
+
+.dish{
+    position: absolute;
+    content: '';
+
+    width: 328px;
+    height: 89px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    right: 5%;
+    top: 3%;
+
+    background-color: #FFF;
+    border-radius: 24px;
+
+    z-index: 5;
+
+    box-shadow: 13.41px 16.76px 27.93px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cont{
+    width: 200px;
+    height: 100px;
+}
+
+.cont h2{
+    font-family: var(--fontPop);
+    font-size: 15.59px;
+    font-weight: 600;
+    line-height: 21.82px;
+    text-align: left;
+    color: #323142;
+}
+
+.cont p{
+    font-family: var(--fontPop);
+    font-size: 9.84px;
+    font-weight: 500;
+    line-height: 13.78px;
+    text-align: left;
+    color: #323142;
+}
+
+.time{
+    font-family: var(--fontPop);
+    font-size: 10.66px;
+    font-weight: 500;
+    line-height: 14.93px;
+    text-align: right;
+    color: #ACADB9;
+}
+
+.dish::after{
+    position: absolute;
+    content: "";
+
+    width: 41px;
+    height: 27px;
+
+    background: url("./../../../img/pattern-1.svg") no-repeat;
+
+    top: -35%;
+    right: -12%;
+
+}

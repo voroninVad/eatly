@@ -9,7 +9,7 @@ export class Header extends Component {
         <header>
             <div className="header">
                 <div className="contin_logo">
-                    <a href="#">
+                    <a href="/eatly">
                     <img src={logo} alt="" />
                     <span>eatly</span>
                     </a>
@@ -17,9 +17,9 @@ export class Header extends Component {
                 <nav className='header_menu'>
                     <ul>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="/blog">Blog</a></li>
                         <li><a href="#">Pricing</a></li>
-                        <li><a href="#">Contacts</a></li>
+                        <li><a href="/contacts">Contacts</a></li>
                     </ul>
                 </nav>
                 <div className="header_form">

@@ -3,6 +3,7 @@ header{
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 6;
 }
 
 .header{
@@ -11,6 +12,7 @@ header{
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background-color: #ffffff;
     border-bottom: 1px solid #CBCBCB;
 }
 
