@@ -3,6 +3,7 @@ import Foods from "./foods/Foods";
 import Features from "./features/Features";
 import Mobile from "./mobile/Mobile";
 import Restaurants from "./restaurants/Restaurants";
+import Dishes from "./dishes/Dishes";
 
 
 class Index extends Component{
@@ -13,7 +14,8 @@ class Index extends Component{
         <Features />
         <Mobile />
         <Restaurants />
-        <br />
+        <Dishes />
+        <br/>
       </main>
     );
   }

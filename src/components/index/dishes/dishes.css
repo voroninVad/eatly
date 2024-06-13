@@ -1,18 +1,23 @@
-.container_restaurants{
-    height: 641px;
+.container_dishes{
+    height: 725px;
     border-bottom: 1px solid #CBCBCB;
 }
 
-.container_restaurants span{
+.dishes_title span{
     color: #6C5FBC;
 }
 
-.restaurants_title{
+.dishes_title{
     font-family: var(--fontPop);
     font-size: 45px;
     font-weight: 600;
     line-height: 25.56px;
     text-align: center;
 
-    margin: 0 0 85px;
+    margin: 80px 0 ;
+}
+
+.dishea_but svg{
+    width: 19px;
+    height: 19px;
 }

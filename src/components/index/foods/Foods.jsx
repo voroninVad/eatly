@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './foods.css'
 import trust from './../../../img/trustpilot.svg'
-import food from './../../../img/food.png'
+import food from './../../../img/chickenHell.png'
 import graphic from './../../../img/graph.png'
 
 

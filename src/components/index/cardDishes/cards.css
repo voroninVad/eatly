@@ -1,0 +1,120 @@
+.cards_dishes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards_dishes button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+
+.card_dishe{
+    position: relative;
+    width: 224.63px;
+    border-radius: 34.58px;
+    border: 1.44px 0px 0px 0px;
+
+    overflow: hidden;
+
+    background-color: #FFFFFF;
+
+    padding: 10px 0;
+
+    box-shadow: 6.85px 82.18px 41.09px 0px rgba(229, 229, 229, 0.7);
+
+    transition: all 0.2s ease-in-out;
+}
+
+.card_dishe:hover{
+    scale: 1.15;
+}
+
+.card_dishe img{
+    width: 201px;
+    height: 208px;
+}
+
+.card_like{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.card_like svg {
+    width: 21px;
+    height: 18px;
+}
+
+.card_infom{
+    padding: 0 15px;
+}
+
+.desc_dishe span{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#Healthy{
+    color: #DAA31A;
+    background-color: #F7EDD0;
+}
+
+#Trending{
+    color: #FB471D;
+    background-color: #F7C5BA;
+}
+
+#Supreme{
+    color: #309D5B;
+    background-color: #c4f7ba;
+}
+
+.price_cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+    font-family: "Manrope" sans-serif;
+    font-size: 25.94px;
+    font-weight: 700;
+    line-height: 40.34px;
+    text-align: left;
+}
+
+.price_cart span{
+    font-size: 18.81px;
+    background: #FFFFFF;
+    color: #8E97A6;
+    padding: 0;
+}
+
+.price_cart button{
+    background-color: #323142;
+    border-radius: 8px;
+
+    width: 42px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_cart svg {
+    width: 15px;
+    height: 15px;
+    fill: #FFFFFF;
+}
+
