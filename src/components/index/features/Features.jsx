@@ -4,20 +4,20 @@ import './features.css'
 export  class Features extends Component {
   render() {
     return (
-      <div className='features'>
+      <section className='features'>
         <div className="container">
             <ul className='features__list list-reset'>
                 <li className='feature__list'>
                     <div>10K+</div>
-                    <p>Satisfied Costumers All Great Over The World</p>
+                    <p>Satisfied Costumers <br /> All Great Over The World</p>
                 </li>
                 <li className='feature__list'>
                     <div>4M</div>
-                    <p>Healthy Dishes Sold Including Milk Shakes Smooth</p>
+                    <p>Healthy Dishes Sold <br /> Including Milk Shakes Smooth</p>
                 </li>
                 <li className='feature__list'>
                     <div>99.99%</div>
-                    <p>Reliable Customer Support We Provide Great Experiences</p>
+                    <p>Reliable Customer Support <br /> We Provide Great Experiences</p>
                 </li>
             </ul>
             <div className="features__decor">
@@ -35,7 +35,7 @@ export  class Features extends Component {
             </svg>
             </div>
         </div>
-      </div>
+      </section>
     )
   }
 }

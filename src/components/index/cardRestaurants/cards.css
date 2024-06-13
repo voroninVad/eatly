@@ -1,0 +1,121 @@
+.card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card_content{
+    width: 395px;
+    height: 297px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+
+    border: 1.25px solid #F4F4F6;
+    border-radius: 30px;
+    overflow: hidden;
+
+    box-shadow: 5.95px 71.35px 35.67px 0px rgba(229, 229, 229, 0.7);
+
+}
+
+.card_img img{
+    width: 100%;
+}
+
+.card_info{
+    padding: 5px 30px;
+}
+
+.card_info span{
+    font-family: var(--fontPop);
+    font-size: 12.78px;
+    font-weight: 400;
+    line-height: 19.16px;
+    text-align: left;
+
+    color: #DAA31A;
+    background-color: #F7EDD0;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.card_name{
+    font-family: var(--fontPop);
+    font-size: 25.79px;
+    font-weight: 600;
+    line-height: 41.9px;
+    text-align: left;
+    margin: 0;
+    color: #323142;
+}
+
+.peculiaritiea{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+
+
+    font-family: 'Manrope' sans-serif;
+    font-size: 19.34px;
+    font-weight: 400;
+    line-height: 25.79px;
+    text-align: left;
+    color: #8E97A6;
+
+}
+
+.grade{
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.grade::before{
+    position: absolute;
+    content: "★";
+    top: 0;
+    left: -25px;
+
+    color: #6C5FBC;
+    font-size: 25px;
+}
+
+.peculiaritiea button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    position: relative;
+}
+
+.favorites svg{
+    width: 20px;
+    height: 20px;
+    fill: #ddd;
+}
+
+.favorites-action svg{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    fill: #6C5FBC;
+}
+
+.favorites-action::before{
+    position: absolute;
+    content: "";
+
+    top: -10px;
+    left: -10px;
+
+    width: 40px;
+    height: 40px;
+
+    
+    background-color: #DBD9EE;
+    border-radius: 50px;
+}

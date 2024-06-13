@@ -1,0 +1,22 @@
+.restaurants{
+    
+}
+
+.container_restaurants{
+    height: 641px;
+    border-bottom: 1px solid #CBCBCB;
+}
+
+.container_restaurants span{
+    color: #6C5FBC;
+}
+
+.restaurants_title{
+    font-family: var(--fontPop);
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 25.56px;
+    text-align: center;
+
+    margin: 0 0 85px;
+}

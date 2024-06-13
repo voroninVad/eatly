@@ -1,0 +1,87 @@
+
+.mobile__app{
+    height: 745px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-bottom: 1px solid #CBCBCB;
+    margin-bottom: 150px;
+}
+
+.mobiloe_content{
+    width: 560px;
+}
+
+.mobiloe_content h2{
+    font-family: var(--fontPop);
+    font-size: 50.92px;
+    line-height: 58.2px;
+    text-align: left;
+    color: #18181B;
+    font-weight: 800;
+}
+
+.mobiloe_content h2 span{
+    color: #6C5FBC;
+}
+
+.mobile_list{
+    margin: 50px 0;
+}
+
+.list_item{
+    font-size: 20.33px;
+    font-weight: 400;
+    line-height: 30.5px;
+    text-align: left;
+    color: #676767;
+    padding: 10px 0;
+}
+
+.mobiloe_content button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.mobiloe_content .download{
+    position: relative;
+    width: 186px;
+    height: 63px;
+    background-color: #6C5FBC;
+    color: #FFFFFF;
+
+    font-family: var(--fontPopaaaz);
+    font-size: 18.06px;
+    font-weight: 500;
+    line-height: 22.58px;
+    text-align: center;
+
+    border: 1px solid #6C5FBC;
+    border-radius: 12px;
+
+    transition: all 0.5s ease-out;
+}
+
+.mobiloe_content .download:hover{
+    background-color: #FFFFFF;
+    color: #6C5FBC;
+}
+
+.mobiloe_content .download::after{
+    position: absolute;
+    content: "";
+
+    width: 164px;
+    height: 87px;
+
+    top: 80%;
+    left: 85%;
+
+    background-image: url('./../../../img/Vector.png');
+    background-repeat: no-repeat;
+
+}

@@ -11,7 +11,7 @@ body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .contin_logo a{
@@ -28,6 +28,7 @@ body {
   margin-left: 5px;
 }
 
-main{
-  margin: 0 auto;
+.main section:not(:nth-child(2)){
+  width: 90%;
+  margin: 0 5%;
 }

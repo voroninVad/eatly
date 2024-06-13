@@ -4,15 +4,15 @@ header{
     top: 0;
     width: 100%;
     z-index: 6;
+    background-color: #ffffff;
 }
 
 .header{
-    max-width: 1248px;
+    width: 90%;
     height: 110px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    background-color: #ffffff;
     border-bottom: 1px solid #CBCBCB;
 }
 
