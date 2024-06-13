@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/eatly/static/css/main.6ad51485.css",
-    "main.js": "/eatly/static/js/main.c8c9ee71.js",
-    "static/media/food.png": "/eatly/static/media/food.2a200136dc5c672d547e.png",
+    "main.css": "/eatly/static/css/main.5338e500.css",
+    "main.js": "/eatly/static/js/main.26cdd9f5.js",
+    "static/media/chickenHell.png": "/eatly/static/media/chickenHell.2a200136dc5c672d547e.png",
     "static/media/ImgChicken.png": "/eatly/static/media/ImgChicken.1a753fbde25a88be46cb.png",
     "static/media/Mobile.png": "/eatly/static/media/Mobile.ff14c019985a780580c8.png",
     "static/media/ImgBurger.png": "/eatly/static/media/ImgBurger.aad6e155b1f586f4a484.png",
+    "static/media/sweDishTrending.png": "/eatly/static/media/sweDishTrending.f9f2693902f9f8b00575.png",
+    "static/media/sweDishSupreme.png": "/eatly/static/media/sweDishSupreme.608da8f208cb35ab6277.png",
     "static/media/trustpilot.svg": "/eatly/static/media/trustpilot.61ab8eaed13fdf4e5c9e5d8981f16d73.svg",
     "static/media/logo.svg": "/eatly/static/media/logo.7b4763bea22509ac7839bfdff9fef0f5.svg",
     "static/media/pattern-1.svg": "/eatly/static/media/pattern-1.8ac518c0f30a762373ae.svg",
     "index.html": "/eatly/index.html",
     "static/media/pattern-2.svg": "/eatly/static/media/pattern-2.bd9b4f48a20714ad95ae.svg",
-    "main.6ad51485.css.map": "/eatly/static/css/main.6ad51485.css.map",
-    "main.c8c9ee71.js.map": "/eatly/static/js/main.c8c9ee71.js.map"
+    "main.5338e500.css.map": "/eatly/static/css/main.5338e500.css.map",
+    "main.26cdd9f5.js.map": "/eatly/static/js/main.26cdd9f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ad51485.css",
-    "static/js/main.c8c9ee71.js"
+    "static/css/main.5338e500.css",
+    "static/js/main.26cdd9f5.js"
   ]
 }
